@@ -1,0 +1,13 @@
+body, html, img, h1, h2, p, h3, button{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

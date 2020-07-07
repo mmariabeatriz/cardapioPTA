@@ -1,0 +1,76 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+ul h1{
+    text-align: left;
+    font: Bold 40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:  30px;
+    padding-left: 30px;
+}
+.item {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #707070;
+}
+
+.item img {
+    width: 14%;
+    height: 14vh;
+}
+
+.texto {
+    width: 54%;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto h2{
+
+    text-align: left;
+    font: Bold 20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.texto h3{
+
+    text-align: left;
+    font: 30px Montserrat;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.texto p {
+
+    text-align: left;
+    font: 20px Montserrat;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

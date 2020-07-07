@@ -1,0 +1,18 @@
+.adicionar {
+    border: none;
+    padding: 1em 4em;
+    background: #f9c500;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px #00000052;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 250ms;
+    font-family: 'Open sans', sans-serif;
+    font-weight: normal;
+}
+.adicionar:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+    transition: 250ms;
+}
